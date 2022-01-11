@@ -1,7 +1,6 @@
 # Computer Vision
 
 ## Object Detection
-
 ### Curriculum
 
-![Curriculum](/CURRICULUM.JPG)
+![Curriculum](C:/workspacegit/Paper/ComputerVision/CURRICULUM.JPG)
