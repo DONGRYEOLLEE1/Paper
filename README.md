@@ -2,7 +2,7 @@
 
 ## Paper Review & Implementation REPOSITORY
 
-Uploaded all paper in this repository read at least a once.
+I've read all the papers on this repository at least once.
 
 And, Some reviews for paper were uploaded where my gitblog in [here](DONGRYEOLLEE1.github.io)
 
