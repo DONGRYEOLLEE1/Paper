@@ -1,4 +1,4 @@
-# DEEP LEARNING
+# AI
 
 ## Paper Review & Implementation REPOSITORY
 
