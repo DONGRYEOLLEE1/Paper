@@ -2,7 +2,6 @@
 
 ## Object Detection
 
-Following this Object Detection history, I will upload all of detailed paper review for red-font model(algorithm) in [here](https://dongryeollee1.github.io/)
 
 <br>
 
