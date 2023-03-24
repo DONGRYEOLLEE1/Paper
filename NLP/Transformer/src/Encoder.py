@@ -4,7 +4,7 @@ from TransformerBlock import *
 from SelfAttention import *
 
 
-class Encoder(nn.Moduel):
+class Encoder(nn.Module):
     """
     positional encoding에 문장의 최대길이에 영향을 받기 때문에 max_length 설정
     max_length 설정값은 데이터셋에 따라 값이 달라질 수 있음
@@ -24,7 +24,7 @@ class Encoder(nn.Moduel):
         self.word_embedding = nn.Embedding(src_vocab_size, embed_size)
         self.positional_encoding = nn.Embedding(max_length, embed_size)
         
-        self.layers = nn.ModuelList(
+        self.layers = nn.ModuleList(
             [
                 TransformerBlock(
                     embed_size,
@@ -32,7 +32,7 @@ class Encoder(nn.Moduel):
                     dropout = dropout,
                     forward_expansion = forward_expansion
                 )
-            ]
+            for _ in range(num_layers)]
         )
         self.dropout = nn.Dropout(dropout)
         
