@@ -5,20 +5,30 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 ## NLP
 
-- BERT ✅
+- Transformers, 2017 ✅✅
+  - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+  - Classification / Chatbot (Pytorch, Tensorflow)
+  - Dataset : [Chatbot](https://github.com/haven-jeon/Chatbot_data)
+  - Implementation from scratch
+
+
+- BERT, 2019 ✅
   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
   -  💪 Text Toxic Comment Classification (Pytorch)
   -  Dataset : [Kaggle Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
   -  Implementation 
 
-- DistilBERT
+
+- DistilBERT, 2020
   - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108.pdf)
   - 20newgroups Classification
+
 
 - KoBERT
   - [KoBERT Github LINK](https://github.com/SKTBrain/KoBERT)
   - Sentiment Analysis (Pytorch)
   - Dataset : [AIHub_감성대화말뭉치](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86)
+
 
 - KoGPT (kakaobrain) 
   - [KoGPT Github LINK](https://github.com/kakaobrain/kogpt)
@@ -26,23 +36,34 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Fine-tuning 
   - Dataset : [NSMC](https://github.com/e9t/nsmc)
 
+
 - KoGTP2 (SKT)
   - [KoGPT Github LINK](https://github.com/SKT-AI/KoGPT2)
   - 🐱‍👤 Sentence Generation / QA ...
   - Fine-tuning
   - Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
 
-- Transformers ✅✅
-  - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
-  - Classification / Chatbot (Pytorch, Tensorflow)
-  - Dataset : [Chatbot](https://github.com/haven-jeon/Chatbot_data)
-  - Implementation from scratch
 
-- ALBERT
-- ELECTRA
-- LLaMA
-- PaLM
-- Alpaca
+- T5, 2019
+  - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
+
+
+- ALBERT, 2020
+  - [A lite BERT for self-supervised learning of language representations](https://arxiv.org/pdf/1909.11942.pdf)
+
+
+- ELECTRA, 2020
+  - [A lite BERT for self-supervised learning of language representations](https://arxiv.org/pdf/2003.10555.pdf)
+
+
+- PaLM, 2022
+  - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
+
+
+- LLaMA, 2023
+  - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971)
+
+
 
 <br></br>
 
@@ -92,6 +113,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Object Detection
 
 - BEiT
+  - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)
 
 
 
