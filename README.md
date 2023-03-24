@@ -22,6 +22,8 @@ This repository is reading AI paper and implementing with codes. The details of 
   -  Dataset : [Kaggle Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
   -  Implementation 
 
+- RoBERTa, 2019
+  - [RoBERTa - A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
 
 - DistilBERT, 2020
   - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108.pdf)
