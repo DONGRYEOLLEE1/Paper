@@ -11,10 +11,14 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Dataset : [Chatbot](https://github.com/haven-jeon/Chatbot_data)
   - Implementation from scratch
 
+- GPT1, 2018
+  - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
 
 - BERT, 2019 ✅
   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
   -  💪 Text Toxic Comment Classification (Pytorch)
+     -  Source : 🧷[LINK](https://www.youtube.com/watch?v=drdOS0QX2p4&ab_channel=AbhishekThakur)🧷
   -  Dataset : [Kaggle Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
   -  Implementation 
 
@@ -34,18 +38,22 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [KoGPT Github LINK](https://github.com/kakaobrain/kogpt)
   - 🐱‍👤 Sentence Generation / QA
   - Fine-tuning 
-  - Dataset : [NSMC](https://github.com/e9t/nsmc)
+  - Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
 
 
 - KoGTP2 (SKT)
   - [KoGPT Github LINK](https://github.com/SKT-AI/KoGPT2)
+  - Base model : GPT2
   - 🐱‍👤 Sentence Generation / QA ...
-  - Fine-tuning
-  - Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
+  - Fine-tuning Dataset : 1️⃣[AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577) 2️⃣[NSMC](https://github.com/e9t/nsmc)
 
 
 - T5, 2019
   - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
+
+
+- GPT2, 2019
+  - [Language Models are Unsupervised Multitask Learners](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
 
 - ALBERT, 2020
@@ -54,6 +62,10 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 - ELECTRA, 2020
   - [A lite BERT for self-supervised learning of language representations](https://arxiv.org/pdf/2003.10555.pdf)
+
+
+- GPT3, 2020
+  - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
 
 
 - PaLM, 2022
@@ -98,7 +110,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Implementation
 
 - ViT, 2021 ✅
-  - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale]()
+  - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929)
   - Classification (Pytorch)
   - Implementation (simple)
 
