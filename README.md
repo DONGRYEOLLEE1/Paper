@@ -39,8 +39,7 @@ This repository is reading AI paper and implementing with codes. The details of 
 - KoGPT (kakaobrain) 
   - [KoGPT Github LINK](https://github.com/kakaobrain/kogpt)
   - 🐱‍👤 Sentence Generation / QA
-  - Fine-tuning 
-  - Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
+  - Fine-tuning Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
 
 
 - KoGTP2 (SKT)
