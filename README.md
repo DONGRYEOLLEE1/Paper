@@ -42,7 +42,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Fine-tuning Dataset : [AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
 
 
-- KoGTP2 (SKT)
+- KoGPT2 (SKT)
   - [KoGPT Github LINK](https://github.com/SKT-AI/KoGPT2)
   - Base model : GPT2
   - 🐱‍👤 Sentence Generation / QA ...
