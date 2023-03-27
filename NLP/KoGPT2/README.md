@@ -15,18 +15,22 @@ opyrator launch-ui main:generate_text
 
 ## Fine tuning
 - Fine-tune dataset from [🍿 NSMC](https://github.com/e9t/nsmc)
-<<<<<<< HEAD
 > Hyperparameter : `1 epoch`
 > Duration : about `80m`
-=======
-  - Hyperparameter : `1 epoch` 
-  - Duration : about `80m`
->>>>>>> 4154ecc83148e0c1859531afb428080140ce3688
 
 - Fine-tun dataset from [📰 AIHub 뉴스기사 기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
-  - `50k data sampling`
-  - Hyperparameter : `5 epochs`, `lr.find()`
-  - Duration : `3h 40m`
+
+
+  - Opt 1️⃣
+> `50k data sampling`
+> Hyperparameter : `5 epochs`, `lr.find()`
+> Duration : `3h 40m`
+
+
+  - Opt 2️⃣
+> '153k of whole dataset`
+> Hyperparameter : `1 epoch`, `lr.find()`
+> Duration : `3h`
 
 
 ## Result
@@ -37,7 +41,7 @@ opyrator launch-ui main:generate_text
 
 <br> </br>
 
-- Fine-tuned 뉴스기사 기계독해
+- Fine-tuned 뉴스기사 기계독해 - Opt 1️⃣
 
 ![metrics1](https://user-images.githubusercontent.com/82855597/227821660-1d5c217c-e181-4fc6-9fb5-68ef8a7f9eee.png)
 
@@ -48,10 +52,20 @@ opyrator launch-ui main:generate_text
 ![news_res2](https://user-images.githubusercontent.com/82855597/227821681-ae0150e8-7e69-4e16-88fc-4d9f8fdaab94.png)
 
 
-## Save
+- Fine-tuned 뉴스기사 기계독해 - Opt 2️⃣
+
+![스크린샷 2023-03-27 143214](https://user-images.githubusercontent.com/82855597/227853600-036b93f6-6d73-43c6-9879-e767a797d1aa.png)()
+
+![스크린샷 2023-03-27 143505](https://user-images.githubusercontent.com/82855597/227853616-9a820fa7-d004-4dbc-a79d-f0082dfcea39.png)
+
+
+## Inference
 
 
 ```python
+"""
+Opt 1️⃣
+"""
 > def inference_fn(PROMPT,
                  MAX_LENGTH: int,
                  REPETITION_PENALTY: float,
@@ -79,10 +93,7 @@ opyrator launch-ui main:generate_text
 거래량은 11억8천만주로 집계됐다 충북 음성군 대소면 소재 (주)대소전주대표 김민수에서 지역 내 어려운 이웃을 위해 써달라며 성금 100만월 기탁했다고 밝혔다 
 (주)대소전은 지난 2019년부터 매년 명절마다 지역의 소외계층을 위한 나눔과 봉사를 실천하고 있다 특히 올해는 코로나19 장기화로 인해 어려움을 겪고 있는 
 대소면의 저소득 가구를 선정해 가국당 50만원씩 모두 200만원의 성금을 전달했다 김민수 대표는 "작은 정성이지만 도움이 필요한 분들에게 조금이나마 힘이 되길 바란다"며'
-<<<<<<< HEAD
-=======
 
->>>>>>> 4154ecc83148e0c1859531afb428080140ce3688
 ```
 
 
