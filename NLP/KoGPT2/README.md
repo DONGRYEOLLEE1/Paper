@@ -15,8 +15,13 @@ opyrator launch-ui main:generate_text
 
 ## Fine tuning
 - Fine-tune dataset from [🍿 NSMC](https://github.com/e9t/nsmc)
+<<<<<<< HEAD
 > Hyperparameter : `1 epoch`
 > Duration : about `80m`
+=======
+  - Hyperparameter : `1 epoch` 
+  - Duration : about `80m`
+>>>>>>> 4154ecc83148e0c1859531afb428080140ce3688
 
 - Fine-tun dataset from [📰 AIHub 뉴스기사 기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
   - `50k data sampling`
@@ -74,6 +79,10 @@ opyrator launch-ui main:generate_text
 거래량은 11억8천만주로 집계됐다 충북 음성군 대소면 소재 (주)대소전주대표 김민수에서 지역 내 어려운 이웃을 위해 써달라며 성금 100만월 기탁했다고 밝혔다 
 (주)대소전은 지난 2019년부터 매년 명절마다 지역의 소외계층을 위한 나눔과 봉사를 실천하고 있다 특히 올해는 코로나19 장기화로 인해 어려움을 겪고 있는 
 대소면의 저소득 가구를 선정해 가국당 50만원씩 모두 200만원의 성금을 전달했다 김민수 대표는 "작은 정성이지만 도움이 필요한 분들에게 조금이나마 힘이 되길 바란다"며'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4154ecc83148e0c1859531afb428080140ce3688
 ```
 
 
