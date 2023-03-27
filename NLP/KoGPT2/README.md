@@ -15,21 +15,20 @@ opyrator launch-ui main:generate_text
 
 ## Fine tuning
 - Fine-tune dataset from [🍿 NSMC](https://github.com/e9t/nsmc)
-> Hyperparameter : `1 epoch`
+> Hyperparameter : `1 epoch`<br>
 > Duration : about `80m`
 
 - Fine-tun dataset from [📰 AIHub 뉴스기사 기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577)
 
 
-  - Opt 1️⃣
-> `50k data sampling`
-> Hyperparameter : `5 epochs`, `lr.find()`
+- Opt 1️⃣
+> 50k data sampling<br>
+> Hyperparameter : `5 epochs`, `lr.find()`<br>
 > Duration : `3h 40m`
 
-
-  - Opt 2️⃣
-> '153k of whole dataset`
-> Hyperparameter : `1 epoch`, `lr.find()`
+- Opt 2️⃣
+> 153k of a whole of dataset<br>
+> Hyperparameter : `1 epoch`, `lr.find()`<br>
 > Duration : `3h`
 
 
@@ -39,7 +38,7 @@ opyrator launch-ui main:generate_text
 
 ![FTmodel3](https://user-images.githubusercontent.com/82855597/227821512-26ab055c-2265-40d3-a87f-e6cfc0322029.png)
 
-<br> </br>
+<br>
 
 - Fine-tuned 뉴스기사 기계독해 - Opt 1️⃣
 
