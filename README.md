@@ -141,3 +141,16 @@ This repository is reading AI paper and implementing with codes. The details of 
 - StyleTransfer, 2016 ✅
   - [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
   - Image Generation (Pytorch)
+
+
+
+
+## Prompt Engineering
+
+- ⛓️CoT (Chain-of-Thought), 2023
+  - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+
+
+- 🦜⛓️Langchain
+  - [LangChain Docs](https://python.langchain.com/en/latest/)
+  - [LangChain Github](https://github.com/hwchase17/langchain)
