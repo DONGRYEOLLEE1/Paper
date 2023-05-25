@@ -23,6 +23,7 @@
 
 - [run_clm.py](https://github.com/Beomi/KoAlpaca/blob/main/train_v1.1b/run_clm.py), shell script로 구동
 ``` python
+# train.sh
 # Tesla V100s 2ea
 torchrun --nproc_per_node=2 --master_port=34321 run_clm.py \
     --model_name_or_path='EleutherAI/polyglot-ko-1.3b' \
@@ -48,7 +49,7 @@ torchrun --nproc_per_node=2 --master_port=34321 run_clm.py \
 
 ### Result
 
-- [Result](https://wandb.ai/dongryeol/huggingface/runs/uiau5p0y?workspace=user-dongryeol)
+- [Result Wandb](https://wandb.ai/dongryeol/huggingface/runs/uiau5p0y?workspace=user-dongryeol)
 
 - ![img1](./assets/img1.png)
 - ![img2](./assets/img2.png)
