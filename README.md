@@ -149,8 +149,22 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 - ⛓️CoT (Chain-of-Thought), 2023
   - [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+  - [📑Blog Post](https://dongryeollee1.github.io/nlp/2023/04/21/Chain_of_Thought.html)
 
 
 - 🦜⛓️Langchain
   - [LangChain Docs](https://python.langchain.com/en/latest/)
   - [LangChain Github](https://github.com/hwchase17/langchain)
+
+
+## Learning
+
+- 🚀DeepSpeed
+  - [ZeRO-Infinity](https://arxiv.org/abs/2104.07857)
+  - [ZeRO-Offload](https://arxiv.org/abs/2101.06840)
+
+- LoRA, 2021 
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LoRA.html)
+  - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+  - Base model : [Polyglot-ko](https://github.com/EleutherAI/polyglot)
+  - [🤗 peft](https://github.com/huggingface/peft/tree/main) Finetuning (V100S 2ea) ➡️ [My Result of Wandb](https://wandb.ai/dongryeol/huggingface/runs/h00kbeyj?workspace=user-dongryeol)
