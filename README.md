@@ -164,7 +164,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [ZeRO-Offload](https://arxiv.org/abs/2101.06840)
 
 - LoRA, 2021 
-  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LoRA.html)
   - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LoRA.html)
   - Base model : [Polyglot-ko](https://github.com/EleutherAI/polyglot)
   - [🤗 peft](https://github.com/huggingface/peft/tree/main) Finetuning (V100S 2ea) ➡️ [My Result of Wandb](https://wandb.ai/dongryeol/huggingface/runs/h00kbeyj?workspace=user-dongryeol)
