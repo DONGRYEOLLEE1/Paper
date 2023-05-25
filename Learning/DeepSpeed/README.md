@@ -1,7 +1,15 @@
-## DeepSpeed 
+## 🚀 DeepSpeed 
 
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 - [DeepSpeed.ai](https://www.deepspeed.ai/)
+
+### ZeRO stage 2
+
+- [DeepSpeed ZeRO stage2 with Huggingface Trainer](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/DeepSpeed/HF_trainer.ipynb)
+
+#### Ref.
+
+[DeepSpeed Deployment in Notebooks 참고](https://huggingface.co/docs/transformers/main_classes/deepspeed#deployment-in-notebooks)
 
 ### ZeRO stage 3 Offload
 
