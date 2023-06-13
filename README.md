@@ -10,6 +10,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Classification / Chatbot (Pytorch, Tensorflow)
   - Dataset : [Chatbot](https://github.com/haven-jeon/Chatbot_data)
   - Implementation from scratch
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2022/01/04/Transformer.html)
 
 - GPT1, 2018
   - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
@@ -21,6 +22,7 @@ This repository is reading AI paper and implementing with codes. The details of 
      -  Source : 🧷[LINK](https://www.youtube.com/watch?v=drdOS0QX2p4&ab_channel=AbhishekThakur)🧷
   -  Dataset : [Kaggle Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
   -  Implementation 
+  -  [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2022/01/26/BERT.html)
 
 - RoBERTa, 2019
   - [RoBERTa - A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf)
@@ -67,6 +69,7 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 - GPT3, 2020
   - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/01/20/GPT3.html)
 
 
 - PaLM, 2022
@@ -75,8 +78,13 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 - LLaMA, 2023
   - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LLaMA.html)
 
-
+- Polyglot-ko, 2023
+  - [A Technical Report for Polyglot-Ko : Open-Source Large-Scale Korean Language Models](https://arxiv.org/abs/2306.02254)
+  - Related to Finetuning
+    - [Finetuning1 via DS ZeRO3](https://dongryeollee1.github.io/nlp/2023/05/23/Finetuning.html)
+    - [Finetuning2 via LoRA](https://dongryeollee1.github.io/nlp/2023/06/09/LoRA-FT.html)
 
 <br></br>
 
@@ -103,6 +111,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Object Detection 
   - Dataset : [PASCAL](http://host.robots.ox.ac.uk/pascal/VOC/)
   - Implementation from scratch (Pytorch)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2022/01/04/YOLOv1.html)
 
 - DETR, 2020 ✅
   - [End-to-End Object Detection with Transformers](https://arxiv.org/pdf/2005.12872.pdf)
@@ -114,19 +123,22 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929)
   - Classification (Pytorch)
   - Implementation (simple)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2022/02/27/ViT.html)
 
 - Swin Transformer, 2021 ✅✅
   - [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030.pdf)
   - Classification (Pytorch)
   - Dataset : Cifar100
   - Implementation
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2022/03/14/SwinTransformer.html)
 
 - YOLOS, 2021 
   - [You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection](https://arxiv.org/pdf/2106.00666.pdf)
   - Object Detection
 
-- BEiT
+- BEiT, 2022
   - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)
+
 
 
 
