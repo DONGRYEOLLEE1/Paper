@@ -119,6 +119,11 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Dataset : COCO
   - Implementation
 
+- EfficientNEt, 2020 ✅
+  - [Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
+  - Pytorch
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2023/06/21/efficientnet.html)
+
 - ViT, 2021 ✅
   - [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929)
   - Classification (Pytorch)
