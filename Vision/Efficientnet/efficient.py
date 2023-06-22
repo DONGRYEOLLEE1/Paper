@@ -183,3 +183,5 @@ def test():
 
 if __name__ == "__main__":
     test()
+    
+## torch.size([4, 10])
