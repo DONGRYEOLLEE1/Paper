@@ -119,7 +119,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Dataset : COCO
   - Implementation
 
-- EfficientNEt, 2020 ✅
+- EfficientNet, 2020 ✅
   - [Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)
   - Pytorch
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2023/06/21/efficientnet.html)
