@@ -141,6 +141,12 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection](https://arxiv.org/pdf/2106.00666.pdf)
   - Object Detection
 
+- EfficientNetV2, 2021
+  - [EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298)
+  - Dataset : [🌿Cassava Leaf Disease Classification](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data?select=train.csv)
+  - Pytorch Implementation (Image Classification)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2023/06/23/efficientnetv2.html)
+
 - BEiT, 2022
   - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)
 
