@@ -113,6 +113,11 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Implementation from scratch (Pytorch)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2022/01/04/YOLOv1.html)
 
+- ResNeXt, 2017 ✅
+  - [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431)
+  - Pytorch from Scratch
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/computervision/2023/06/24/ResNext.html)
+
 - DETR, 2020 ✅
   - [End-to-End Object Detection with Transformers](https://arxiv.org/pdf/2005.12872.pdf)
   - Object Detection (Pytorch)
@@ -141,7 +146,7 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection](https://arxiv.org/pdf/2106.00666.pdf)
   - Object Detection
 
-- EfficientNetV2, 2021
+- EfficientNetV2, 2021 ✅
   - [EfficientNetV2: Smaller Models and Faster Training](https://arxiv.org/abs/2104.00298)
   - Dataset : [🌿Cassava Leaf Disease Classification](https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data?select=train.csv)
   - Pytorch Implementation (Image Classification)
@@ -150,6 +155,14 @@ This repository is reading AI paper and implementing with codes. The details of 
 - BEiT, 2022
   - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)
 
+- ConvNeXt, 2022
+  - [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545)
+  - torch from scratch
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/cv/2023/06/29/ConvNeXt.html)
+
+- ConvNeXtV2, 2023
+  - [Co-designing and Scaling ConvNets with Masked Autoencoders](https://arxiv.org/abs/2301.00808)
+  - [📑Blog Post - Paper revie]()
 
 
 
