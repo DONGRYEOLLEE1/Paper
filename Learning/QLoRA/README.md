@@ -2,7 +2,7 @@
 
 - 4-bit quantization
 - Only use for `KoAlpaca` data, if you wanna other dataset modify a codes or add to dataset processing line
-- Changing a `lora_alpha` value is statistically not-significant. So, don't tweak a hyperparameter
+- Changing a `lora_alpha` value statistically is not-significant according to original paper and empirical test. So, don't tweak a hyperparameter
 
 
 Example usage:
