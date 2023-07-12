@@ -154,8 +154,9 @@ This repository is reading AI paper and implementing with codes. The details of 
 
 - BEiT, 2022
   - [BEiT: BERT Pre-Training of Image Transformers](https://arxiv.org/pdf/2106.08254.pdf)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/cv/2023/07/10/BEiT.html)
 
-- ConvNeXt, 2022
+- ConvNeXt, 2022 ✅
   - [A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545)
   - torch from scratch
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/cv/2023/06/29/ConvNeXt.html)
@@ -204,3 +205,10 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LoRA.html)
   - Base model : [Polyglot-ko](https://github.com/EleutherAI/polyglot)
   - [🤗 peft](https://github.com/huggingface/peft/tree/main) Finetuning (V100S 2ea) ➡️ [My Result of Wandb](https://wandb.ai/dongryeol/huggingface/runs/h00kbeyj?workspace=user-dongryeol)
+
+- QLoRA, 2023
+  - [📒Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/finetuning/2023/07/12/QLoRA.html)
+  - Base model : [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
+  - Dataset : [KoAlpaca_v1.1.jsonl](https://github.com/Beomi/KoAlpaca/blob/main/KoAlpaca_v1.1.jsonl)
+  - [🤗 Finetuning Polyglot-ko-12.8b model for 4bit Quantization (Jupyter)](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/QLoRA/qlora.ipynb)
