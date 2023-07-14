@@ -211,4 +211,4 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/finetuning/2023/07/12/QLoRA.html)
   - Base model : [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
   - Dataset : [KoAlpaca_v1.1.jsonl](https://github.com/Beomi/KoAlpaca/blob/main/KoAlpaca_v1.1.jsonl)
-  - [🤗 Finetuning Polyglot-ko-12.8b model for 4bit Quantization (Jupyter)](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/QLoRA/qlora.ipynb)
+  - [🤗 Finetuning Polyglot-ko-12.8b model for 4bit Quantization (Jupyter)](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/QLoRA/qlora_training.ipynb)
