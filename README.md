@@ -206,6 +206,12 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Base model : [Polyglot-ko](https://github.com/EleutherAI/polyglot)
   - [🤗 peft](https://github.com/huggingface/peft/tree/main) Finetuning (V100S 2ea) ➡️ [My Result of Wandb](https://wandb.ai/dongryeol/huggingface/runs/h00kbeyj?workspace=user-dongryeol)
 
+- IA3, 2022
+  - [Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning](https://arxiv.org/abs/2205.05638)
+  - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/08/07/IA3_paper.html)
+  - Base model : `Polyglot-ko-1.3b`
+  - Training code : [Training a method of IA3](https://github.com/DONGRYEOLLEE1/Paper/blob/main/Learning/IA3/peft_IA3.ipynb)
+
 - QLoRA, 2023
   - [📒Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/finetuning/2023/07/12/QLoRA.html)
