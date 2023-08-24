@@ -7,15 +7,11 @@ import gradio as gr
 from threading import Thread
 from prompter import Prompter
 from peft import PeftConfig, get_peft_model
-from sentence_transformers import SentenceTransformer, util
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline, TextIteratorStreamer
+from transformers import AutoTokenizer, AutoModelForCausalLM, TextIteratorStreamer
 
-from langchain.docstore.document import Document
-from langchain.embeddings import HuggingFaceEmbeddings, SentenceTransformerEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from langchain import PromptTemplate
-from langchain.llms import HuggingFaceTextGenInference
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 
 ##### Init #####
