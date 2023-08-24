@@ -15,7 +15,6 @@ This repository is reading AI paper and implementing with codes. The details of 
 - GPT1, 2018
   - [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
-
 - BERT, 2019 ✅
   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
   -  💪 Text Toxic Comment Classification (Pytorch)
@@ -31,12 +30,10 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter](https://arxiv.org/pdf/1910.01108.pdf)
   - 20newgroups Classification
 
-
 - KoBERT
   - [KoBERT Github LINK](https://github.com/SKTBrain/KoBERT)
   - Sentiment Analysis (Pytorch)
   - Dataset : [AIHub_감성대화말뭉치](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86)
-
 
 - KoGPT (kakaobrain) 
   - [KoGPT Github LINK](https://github.com/kakaobrain/kogpt)
@@ -49,7 +46,6 @@ This repository is reading AI paper and implementing with codes. The details of 
   - Base model : GPT2
   - 🐱‍👤 Sentence Generation / QA ...
   - Fine-tuning Dataset : 1️⃣[AIHub_뉴스기사기계독해](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=577) 2️⃣[NSMC](https://github.com/e9t/nsmc)
-
 
 - T5, 2019
   - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
@@ -71,10 +67,15 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/01/20/GPT3.html)
 
+- RAG, 2021
+  - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+  - Dataset : Self-construction Dataset
+  - [FAISS](https://github.com/facebookresearch/faiss)
+  - [🦜 LANGCHAIN](https://github.com/langchain-ai/langchain)
+  - [Chat-Serivce for Fine-tuning model with Langchain](https://github.com/DONGRYEOLLEE1/Paper/blob/main/NLP/RAG/app_finetuning_model_w_stream.py)
 
 - PaLM, 2022
   - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
-
 
 - LLaMA, 2023
   - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971)
@@ -165,21 +166,9 @@ This repository is reading AI paper and implementing with codes. The details of 
   - [Co-designing and Scaling ConvNets with Masked Autoencoders](https://arxiv.org/abs/2301.00808)
   - [📑Blog Post - Paper revie]()
 
-
-
-
-
-
-
-
-
-
-
 - StyleTransfer, 2016 ✅
   - [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
   - Image Generation (Pytorch)
-
-
 
 
 ## Prompt Engineering
@@ -203,18 +192,19 @@ This repository is reading AI paper and implementing with codes. The details of 
 - LoRA, 2021 
   - [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/04/24/LoRA.html)
-  - Base model : [Polyglot-ko](https://github.com/EleutherAI/polyglot)
-  - [🤗 peft](https://github.com/huggingface/peft/tree/main) Finetuning (V100S 2ea) ➡️ [My Result of Wandb](https://wandb.ai/dongryeol/huggingface/runs/h00kbeyj?workspace=user-dongryeol)
+  - Base model : [Polyglot-ko-1.3b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
+  - Training code : [🤗 PEFT-LoRA](https://github.com/DONGRYEOLLEE1/Paper/blob/main/Learning/LoRA/lora_training.ipynb)
 
 - IA3, 2022
   - [Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning](https://arxiv.org/abs/2205.05638)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/nlp/2023/08/07/IA3_paper.html)
-  - Base model : `Polyglot-ko-1.3b`
-  - Training code : [Training a method of IA3](https://github.com/DONGRYEOLLEE1/Paper/blob/main/Learning/IA3/traing.ipynb)
+  - Base model : [Polyglot-ko-1.3b](https://huggingface.co/EleutherAI/polyglot-ko-1.3b)
+  - Dataset : [beomi/KoAlpaca-v1.1a](https://huggingface.co/datasets/beomi/KoAlpaca-v1.1a)
+  - Training code : [🤗 PEFT-IA3](https://github.com/DONGRYEOLLEE1/Paper/blob/main/Learning/IA3/traing.ipynb)
 
 - QLoRA, 2023
   - [📒Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314)
   - [📑Blog Post - Paper review](https://dongryeollee1.github.io/finetuning/2023/07/12/QLoRA.html)
   - Base model : [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b)
   - Dataset : [KoAlpaca_v1.1.jsonl](https://github.com/Beomi/KoAlpaca/blob/main/KoAlpaca_v1.1.jsonl)
-  - [🤗 Finetuning Polyglot-ko-12.8b model for 4bit Quantization (Jupyter)](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/QLoRA/qlora_training.ipynb)
+  - [🤗 Finetuning Polyglot-ko-12.8b model for 4bit Quantization](https://github.com/DONGRYEOLLEE1/Paper/tree/main/Learning/QLoRA/qlora_training.ipynb)
