@@ -1,7 +1,7 @@
 ## IA3
 
 - python3.10.6
-- peft 0.5.0.dev0           # Since peft is still developing, Below contents can change at any time.
+- peft 0.5.0.dev0
 - transformers 4.32.0.dev0
 - bitsandbytes 0.41.1
 - torch 2.0.1
@@ -9,36 +9,6 @@
 ## MODEL
 
 - `EleutherAI/polyglot-ko-1.3b`
-
-## Error
-
-1. `expected scalar type float but found half`
-
-```python
-with torch.autocast("cuda"):
-    trainer.train()
-```
-
-2. `transformers local variable "result" referenced before assignment`
-
-
-```python
-# /venv/lib/python3.10/site-packages/peft/tuners/ia3.py 
-# line 507
-...
-
-if is_bnb_available():
-
-    class Linear8bitLt(bnb.nn.Linear8bitLt, IA3Layer):
-        ...
-
-        def forward(self, x: torch.Tensor):
-            ...
-                    else:
-                        result = super().forward(x)     ## 추가
-                        result = result * self.ia3_l[self.active_adapter].flatten()
-            return result
-```
 
 ## Inference
 
